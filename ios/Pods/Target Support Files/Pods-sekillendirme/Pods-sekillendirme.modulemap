@@ -1,0 +1,6 @@
+module Pods_sekillendirme {
+  umbrella header "Pods-sekillendirme-umbrella.h"
+
+  export *
+  module * { export * }
+}

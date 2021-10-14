@@ -1,0 +1,6 @@
+module Pods_sekillendirme_sekillendirmeTests {
+  umbrella header "Pods-sekillendirme-sekillendirmeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
