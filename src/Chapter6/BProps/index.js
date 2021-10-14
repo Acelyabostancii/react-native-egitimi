@@ -4,27 +4,22 @@ import Card from './card';
 export default class ComponentClass extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Card />
-        <Card />
-        <Card />
+      <View style={styles.cardContainer}>
+        <Card text="Bekir" backgroundColor="green" />
+        <Card text=":)" />
+        <Card text="açi" backgroundColor="pink" />
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
+  cardContainer: {
     backgroundColor: '#FFEB3B',
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  cardContainer: {
-    padding: 10,
-    borderWidth: 3,
-    borderColor: '#000',
   },
   cardText: {
     fontSize: 18,
